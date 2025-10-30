@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bellamy Dev</title>
+    <title>Mes Exercices - Bellamy Dev</title>
+    <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-    <h1>Bienvenue sur mon site !</h1>
-    <p>Hello, je suis Bellamy 👋</p>
+<div class="container">
+    <header>
+        <h1>📚 Mes Exercices</h1>
+        <p class="subtitle">Collection d'exercices JavaScript et Git</p>
+    </header>
+
+    <!-- Filtres par catégorie -->
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+        <button class="filter-btn" data-filter="Git">Git</button>
+        <button class="filter-btn" data-filter="Design">Design</button>
+    </div>
+
+    <!-- Liste des exercices (générée dynamiquement) -->
+    <ul class="exercises-list" id="exercices-container">
+        <!-- Les exercices seront ajoutés ici par JavaScript -->
+    </ul>
+
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/bellamy-dev">Bellamy Dev</a></p>
+    </footer>
+</div>
+
+<script type="module" src="public/js/script.js"></script>
 </body>
 </html>
