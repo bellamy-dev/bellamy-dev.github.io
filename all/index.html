@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Exercice et Introduction - Bellamy Dev</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>📚 Mes Exercice et Introduction</h1>
+        <p class="subtitle">Collection d'Exercice et Introduction JavaScript et Git</p>
+    </header>
+
+    <!-- Filtres par catégorie -->
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+        <button class="filter-btn" data-filter="Git">Git</button>
+        <button class="filter-btn" data-filter="Design">Design</button>
+        <button class="filter-btn" data-filter="HTML">HTML</button>
+        <button class="filter-btn" data-filter="Web">Web</button>
+        <button class="filter-btn" data-filter="Projet">Projets</button>
+        <button class="filter-btn" data-filter="Ressources">Ressources</button>
+        <button class="filter-btn" data-filter="Système">Système</button>
+    </div>
+
+
+
+    <!-- Liste des exercices (générée dynamiquement) -->
+    <ul class="exercises-list" id="exercices-container">
+        <!-- Les exercices seront ajoutés ici par JavaScript -->
+    </ul>
+
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/bellamy-dev">Bellamy Dev</a></p>
+    </footer>
+</div>
+
+<script type="module" src="public/js/script.js"></script>
+</body>
+</html>
