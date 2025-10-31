@@ -182,6 +182,13 @@ const exercices = [
         category: "Système",
         icon: "🐧",
         type: "PDF"
+    },
+    {
+        title: "Dossier professionnel ",
+        file: "Dossier_Professionel_Valentin_CRAMAIL.odt",
+        category: "Ressources",
+        icon: "📁",
+        type: "ODT"
     }
 ];
 
