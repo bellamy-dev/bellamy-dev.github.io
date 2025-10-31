@@ -5,13 +5,15 @@ const exercices = [
         title: "Les chaînes de caractères",
         file: "_01_Les chaînes de caractères.pdf",
         category: "JavaScript",
-        icon: "📝"
+        icon: "📝",
+        type: "PDF"
     },
     {
         title: "Les nombres",
         file: "_02_Les nombres.pdf",
         category: "JavaScript",
-        icon: "🔢"
+        icon: "🔢",
+        type: "PDF"
     },
 
 
@@ -21,13 +23,15 @@ const exercices = [
         title: "Brief Projet Web Pédagogique",
         file: "Brief_Projet_Web_Pedagogique.pdf",
         category: "Projet",
-        icon: "🎓"
+        icon: "🎓",
+        type: "PDF"
     },
     {
         title: "Cahier des charges Portfolio CV",
         file: "Cahier_des_charges_Portfolio_CV.pdf",
         category: "Projet",
-        icon: "📋"
+        icon: "📋",
+        type: "PDF"
     },
 
 
@@ -36,13 +40,15 @@ const exercices = [
         title: "La Zen Attitude pour l'Apprenant",
         file: "La Zen Attitude pour l'Apprenant.pdf",
         category: "Ressources",
-        icon: "🧘"
+        icon: "🧘",
+        type: "PDF"
     },
     {
         title: "Plateforme de partage de savoirs informatiques",
         file: "Plateforme de partage de savoirs informatiques.pdf",
         category: "Ressources",
-        icon: "🔗"
+        icon: "🔗",
+        type: "PDF"
     },
 
 ];

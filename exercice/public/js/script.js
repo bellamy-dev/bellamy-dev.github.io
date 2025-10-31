@@ -16,7 +16,7 @@ function renderExercices() {
                     <span class="exercise-title">${exercice.title}</span>
                     <span class="exercise-category">${exercice.category}</span>
                 </div>
-                <span class="badge">PDF</span>
+                <span class="badge">${exercice.type}</span>
             </a>
         `;
 
